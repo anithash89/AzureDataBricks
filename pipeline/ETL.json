@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Get Metadata",
+				"name": "Read Source file",
 				"type": "GetMetadata",
 				"dependsOn": [],
 				"policy": {
@@ -30,11 +30,11 @@
 				}
 			},
 			{
-				"name": "If Condition",
+				"name": "Validation Check",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
-						"activity": "Get Metadata",
+						"activity": "Read Source file",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -144,7 +144,7 @@
 				"type": "DatabricksSparkPython",
 				"dependsOn": [
 					{
-						"activity": "If Condition",
+						"activity": "Validation Check",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -158,6 +158,14 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"pythonFile": "dbfs://testpython.py",
+					"libraries": [
+						{
+							"jar": ""
+						}
+					]
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
 					"type": "LinkedServiceReference"
