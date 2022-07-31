@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://myfirststorageanitha.blob.core.windows.net/",
+			"accountKind": "StorageV2"
+		}
+	}
+}
