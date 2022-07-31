@@ -1,0 +1,14 @@
+{
+	"name": "AzureDatabricks1",
+	"properties": {
+		"description": "na",
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-8346143403334219.19.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/cc50855c-de82-4cf6-a3c2-b3608fa6d588/resourceGroups/myfirstAzure/providers/Microsoft.Databricks/workspaces/myfirstpythondatabricks",
+			"existingClusterId": "0731-201109-p6329l6d"
+		}
+	}
+}
