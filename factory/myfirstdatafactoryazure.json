@@ -1,0 +1,9 @@
+{
+	"name": "myfirstdatafactoryazure",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b6e73216-6051-494e-a563-0c83f4122481",
+		"tenantId": "46e21823-f307-4395-91cc-b6a7b08e00ee"
+	}
+}
