@@ -6,6 +6,8 @@
 
 
 **Azure Databricks:** 
+
+
 Azure Databricks is a data analytics platform (PaaS), specially optimised for Microsoft Azure cloud platform. Databricks is an enterprise-grade platform service that is unified for data lake architecture for large analytical operations.
 
 
@@ -15,6 +17,12 @@ Azure Databricks is a data analytics platform (PaaS), specially optimised for Mi
 
 
 ![Azure Data factory](https://user-images.githubusercontent.com/100298933/182228873-b2ff9dd4-45ae-4043-80ac-8cc27f5c830d.png)
+
+
+
+
+
+Azure Data Factory (ADF) is a data pipeline orchestrator and ETL tool that is part of the Microsoft Azure cloud ecosystem. ADF can pull data from the outside world (FTP, Amazon S3, Oracle, and many more), transform it, filter it, enhance it, and move it along to another destination
 
 
 
